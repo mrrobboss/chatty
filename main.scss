@@ -348,6 +348,9 @@
     font-size: 30px;
     content: '\aWelcome to Robs Corner.\a\aIf you can see this you are using Chatty.';
 }
+.hljs  {
+  background-color: rgba(0, 0, 0, .35)!important;
+}
 *::-webkit-scrollbar-track-piece
 {
     background: none !important;

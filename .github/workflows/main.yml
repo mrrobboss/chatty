@@ -1,7 +1,6 @@
 - name: Sass Build
   uses: gha-utilities/sass-build@v0.2.5
 
-
 on:
   push:
     branches:

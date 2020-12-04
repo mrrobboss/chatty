@@ -4,7 +4,7 @@
 on:
   push:
     branches:
-      - src-pages
+      - master
 
 
 jobs:
@@ -15,7 +15,7 @@ jobs:
       - name: Checkout source Git branch
         uses: actions/checkout@v2
         with:
-            ref: src-pages
+            ref: master
             fetch-depth: 10
             submodules: true
             
@@ -66,8 +66,7 @@ jobs:
         uses: gha-utilities/init-pull-request@v0.0.4
         with:
           pull_request_token: ${{ secrets.GITHUB_TOKEN }}
-          head: pr-pages
-          base: gh-pages
+          head: master
           title: 'idk what this is but i dont understand it'
           body: >
             yes

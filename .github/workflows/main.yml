@@ -40,13 +40,7 @@ jobs:
           source: basics/profile_modal.scss
           destination: _bbd/css/main.css
 
-      - name: Checkout destination Git branch
-        uses: actions/checkout@v2
-        with:
-            ref: pr-pages
-            fetch-depth: 1
-
-      - name: Add and Commit changes to pr-pages branch
+      - name: Add and Commit changes to master branch
         run: |
           git config --local user.email 'action@github.com'
           git config --local user.name 'GitHub Action'

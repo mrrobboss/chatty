@@ -20,25 +20,25 @@ jobs:
         uses: gha-utilities/sass-build@v0.3.0
         with:
           source: basics/transparent.scss
-          destination: _bbd/css/main.css
+          destination: _bbd/css/transparent.css
           
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.3.0
         with:
           source: basics/buttons.scss
-          destination: _bbd/css/main.css
+          destination: _bbd/css/buttons.css
           
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.3.0
         with:
           source: basics/settings.scss
-          destination: _bbd/css/main.css
+          destination: _bbd/css/settings.css
           
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.3.0
         with:
           source: basics/profile_modal.scss
-          destination: _bbd/css/main.css
+          destination: _bbd/css/profile_modal.css
 
       - name: Add and Commit changes to master branch
         run: |

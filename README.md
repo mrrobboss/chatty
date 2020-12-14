@@ -39,4 +39,4 @@ __Steps:__
 
 ## How to enable Glasscord support
 
-Once it's done I'll add this section.
+Once it's done I'll add this section

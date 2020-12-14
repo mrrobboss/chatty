@@ -14,7 +14,7 @@ Chatty is a customizable sleek-looking Discord theme, intended for the [Powercor
 ## Powercord installation instructions
 
 __Prerequisites:__
-Everything necessary is already installed if Powercord is plugged successfully
+Everything necessary is already installed if Powercord is injected.
 
 __Steps:__
 
@@ -39,4 +39,4 @@ __Steps:__
 
 ## How to enable Glasscord support
 
-Once it's done I'll ad this section
+Once it's done I'll add this section

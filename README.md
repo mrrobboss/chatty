@@ -11,6 +11,10 @@ Chatty is a customizable sleek-looking Discord theme, intended for the [Powercor
 
 [X] Custom Background Images
 
+## Screenshots
+
+As Chatt is being rewritten, I will not provide any screenshots until I have finished rewriting it.
+
 ## Powercord installation instructions
 
 __Prerequisites:__

@@ -1,0 +1,1 @@
+![chatty-logo](https://github.com/mrrobboss/chatty/blob/master/assets/logo.png)

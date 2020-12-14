@@ -1,4 +1,4 @@
-![chatty-logo](https://github.com/mrrobboss/chatty/blob/master/assets/logo.png)
+![chatty-logo](https://github.com/mrrobboss/chatty/blob/master/assets/logo2.png)
 # Chatty
 
 Chatty is a customizable sleek-looking Discord theme, intended for the [Powercord](https://github.com/powercord-org/powercord) client-mod.
@@ -14,7 +14,7 @@ Chatty is a customizable sleek-looking Discord theme, intended for the [Powercor
 ## Powercord installation instructions
 
 __Prerequisites:__
-Everything necessary is already installed if Powercord is plugged successfully
+Everything necessary is already installed if Powercord is injected.
 
 __Steps:__
 
@@ -39,4 +39,4 @@ __Steps:__
 
 ## How to enable Glasscord support
 
-Once it's done I'll ad this section
+Once it's done I'll add this section.

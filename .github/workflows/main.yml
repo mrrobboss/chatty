@@ -73,7 +73,7 @@ jobs:
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.3.0
         with:
-          source: variants/transparnet.scss
+          source: variants/transparent.scss
           destination: _bbd/css/vtransparent.css
 
       - name: Add and Commit changes to rewrite branch

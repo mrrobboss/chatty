@@ -19,7 +19,7 @@ jobs:
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.3.0
         with:
-          source: basics/transparent.scss
+          source: basics/chat.scss
           destination: _bbd/css/chat.css
           
       - name: Compile CSS from SCSS files

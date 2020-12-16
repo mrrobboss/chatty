@@ -37,7 +37,7 @@ jobs:
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.3.0
         with:
-          source: basics/profile_modal.scss
+          source: basics/profile_modals.scss
           destination: _bbd/css/profile_modals.css
 
       - name: Compile CSS from SCSS files

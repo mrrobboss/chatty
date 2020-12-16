@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - master
+      - rewrite
 
 
 jobs:
@@ -12,7 +12,7 @@ jobs:
       - name: Checkout source Git branch
         uses: actions/checkout@v2
         with:
-            ref: master
+            ref: rewrite
             fetch-depth: 10
             submodules: true
             
@@ -20,7 +20,7 @@ jobs:
         uses: gha-utilities/sass-build@v0.3.0
         with:
           source: basics/transparent.scss
-          destination: _bbd/css/transparent.css
+          destination: _bbd/css/chat.css
           
       - name: Compile CSS from SCSS files
         uses: gha-utilities/sass-build@v0.3.0
@@ -38,9 +38,45 @@ jobs:
         uses: gha-utilities/sass-build@v0.3.0
         with:
           source: basics/profile_modal.scss
-          destination: _bbd/css/profile_modal.css
+          destination: _bbd/css/profile_modals.css
 
-      - name: Add and Commit changes to master branch
+      - name: Compile CSS from SCSS files
+        uses: gha-utilities/sass-build@v0.3.0
+        with:
+          source: basics/guild_list.scss
+          destination: _bbd/css/guild_list.css
+
+      - name: Compile CSS from SCSS files
+        uses: gha-utilities/sass-build@v0.3.0
+        with:
+          source: basics/sidebar.scss
+          destination: _bbd/css/sidebar.css
+
+      - name: Compile CSS from SCSS files
+        uses: gha-utilities/sass-build@v0.3.0
+        with:
+          source: basics/popups.scss
+          destination: _bbd/css/popups.css
+
+      - name: Compile CSS from SCSS files
+        uses: gha-utilities/sass-build@v0.3.0
+        with:
+          source: variants/glasscord.scss
+          destination: _bbd/css/vglasscord.css
+
+      - name: Compile CSS from SCSS files
+        uses: gha-utilities/sass-build@v0.3.0
+        with:
+          source: variants/solid_color.scss
+          destination: _bbd/css/vsolid_color.css
+
+      - name: Compile CSS from SCSS files
+        uses: gha-utilities/sass-build@v0.3.0
+        with:
+          source: variants/transparnet.scss
+          destination: _bbd/css/vtransparent.css
+
+      - name: Add and Commit changes to rewrite branch
         run: |
           git config --local user.email 'action@github.com'
           git config --local user.name 'GitHub Action'
@@ -48,7 +84,7 @@ jobs:
           git diff-index --quiet HEAD || git commit -m 'Updated compiled CSS files'
 
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@rewrite
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
+          branch: rewrite

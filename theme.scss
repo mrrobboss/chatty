@@ -1,36 +1,57 @@
-@import 'basics/base';
+// Necessary stuff
+@import 'basics/chat';
+@import 'basics/sidebar';
+@import 'basics/guild_list';
+@import 'basics/popups';
 @import 'basics/powercord_toast';
 @import 'basics/buttons';
-@import 'basics/profile_modal';
+@import 'basics/profile_modals';
 @import 'basics/settings';
-@import 'variants/glasscord.scss';
+// Import a variant
+@import 'variants/solid';
+// Import extra stuff
 
+// Setting the variables
 :root {
     // Background Images
     --chattyBgImgGlobal: url(https://source.unsplash.com/daily/?abstract);
     --chattyBgImgPopups: var(--chattyBackgroundImageGlobal);
 
     // Background Colors
-        // glasscord + transparent
+        // Glasscord + Transparent
+        --chattyColorTransMain: rgba(0,0,0,0.6);
+        --chattyColorTransSidebar: rgba(0,0,0,0.4);
+        --chattyColorTransPopUps: rgba(0,0,0,0.8);
+        --chattyColorTransChatElements: rgba(0,0,0,0.4);
+        --chattyColorTransChannelSelector: rgba(0,0,0,0.4);
+        --chattyColorTransPopUpsElements: rgba(0,0,0,0.4);
 
-        // solid colors
+        // Solid Colors
+        --chattyColorMain: #87481E;
+        --chattyColorSidebar: #8A4C22;
+        --chattyColorChatElements: #C95D14;
+        --chattyColorChannelSelector: #C95D14;
+        --chattyColorPopUpsElements: #C95D14;
+        --chattyColorPopUps: #87481E;
+        --chattyColorPopUpsBehind: var(--chattyColorBackground);
+        --chattyColorBackground: #63300E;
 
     // Accents
-    --chattyColorAccent: #ee8890;
+    --chattyColorAccent: #FF8533;
     --chattyColorDeclineButton: #ca4040;
     --chattyColorAcceptButton: #4fd44a;
     --chattyColorIcons: #ffffff;
 
     // Text
     --chattyColorMainText: #ffffff;
-    --chattyColorSubText:
+    --chattyColorSubText: #eeeeee;
 
     // Corner Radius
     --chattyRadiusGlobal: 5px;
     --chattyRadiusServerIcon: var(--chattyRadiusGlobal);
     --chattyRadiusPopUps: var(--chattyRadiusGlobal);
     --chattyRadiusImages: var(--chattyRadiusGlobal);
-    --chattyRadiusEmbeds: var(--chattyRadiusGlobal);
+    --chattyRadiusChatElements: var(--chattyRadiusGlobal);
 
     // Padding
     --chattyPaddingGlobal: 10px;

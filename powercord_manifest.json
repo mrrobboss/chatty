@@ -1,8 +1,8 @@
 {
-    "version": "0.4.3",
+    "version": "0.4.5",
     "author": "rob#1160 [ID: 194474365646012416]",
     "license": "MIT",
     "theme": "theme.scss",
     "name": "Chatty",
-    "description": "Just a theme which looks nice and is customizable."
+    "description": "Customizable theme to fit your style. Supports Glasscord!"
 }

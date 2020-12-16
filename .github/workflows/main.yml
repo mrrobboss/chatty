@@ -51,4 +51,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GIT_ACC_TOKEN }}
-          branch: master
+          branch: furry

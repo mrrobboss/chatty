@@ -1,8 +1,8 @@
 {
-    "version": "0.4.3",
-    "author": "rob#1160 [ID: 194474365646012416]",
+    "version": "0.0.1",
+    "author": "maddiex#2473 [ID: 327959835524202506]",
     "license": "MIT",
     "theme": "theme.scss",
-    "name": "Chatty",
-    "description": "Just a theme which looks nice and is customizable."
+    "name": "Tholoura",
+    "description": "Glassy theme with vibrant backgrounds an excellent contrast"
 }

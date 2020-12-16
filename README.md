@@ -5,9 +5,9 @@ Chatty is a customizable sleek-looking Discord theme, intended for the [Powercor
 
 ## Features
 
-[ ] [Glasscord](https://github.com/AryToNeX/Glasscord) Support
+[  ] [Glasscord](https://github.com/AryToNeX/Glasscord) Support
 
-[X] [BBD](https://github.com/rauenzi/BetterDiscordApp) Support (Currently not available on BBD theme websites)
+[  ] [BBD](https://github.com/rauenzi/BetterDiscordApp) Support (Currently not available on BBD theme websites)
 
 [X] Custom Background Images
 

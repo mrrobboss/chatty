@@ -1,4 +1,7 @@
-![chatty-logo](https://github.com/mrrobboss/chatty/blob/master/assets/logo2.png)
+! Notice:
+
+This project has been put on hold, most likely forever. You can go ahead and fork this and make it work but i will not offer any support on this anymore. When making a working version and plan on releasing it, make sure to credit me, i wanna be in on the fame too tbh. 
+
 # Chatty
 
 Chatty is a customizable sleek-looking Discord theme, intended for the [Powercord](https://github.com/powercord-org/powercord) client-mod.
